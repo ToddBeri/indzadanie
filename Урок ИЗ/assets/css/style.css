@@ -1,0 +1,315 @@
+
+body{
+    margin: 0;
+    width: 1920;
+    height: 3258px;
+    background-color: white;
+}
+.ecran1{
+    background: url(../img/imgBackground\ 1.png) center no-repeat;
+    background-size: cover;
+    height: 975px;
+    width: 1920px;
+    margin: 0 auto;
+}
+.ecran1 .wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 1676px;
+    padding: 22px 124px;
+}
+.ecran1 .wrapper .ssilki{
+    display: flex;
+    width: 305px;
+    justify-content: space-between;
+    align-items: center;
+}
+.burger-menu .line{
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 8px;
+}
+.burger-menu .line:last-child{
+    margin: 0;
+}
+a{
+    color: white;
+}
+.info{
+    padding-left: 124px;
+}
+.ecran1 .t1{
+    width: 820px;
+    padding-top: 129px;
+}
+.ecran1 .t1 h1{
+    font-size: 70px;
+    color: white;
+}
+.ecran1 .t2{
+    width: 8300px;
+    padding-top: 50px;
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+    width: 547px;
+}
+.btn.orange:hover {
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    width: 335px;
+    height: 75px;
+    border-radius: 37px;
+    transition: 0.4s;
+  }
+  .btn.orange {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    width: 335px;
+    height: 75px;
+    border-radius: 37px;
+    transition: 0.4s;
+    background-color: #DD9428;
+    cursor: pointer;
+  }
+  .buttt{
+    padding-top: 70px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    
+  }
+  .bt2{
+    padding-left: 60px;
+  }
+  .buttt p{
+    padding-left: 21px;
+    font-size: 16px;
+    color: #A1A8B6;
+    width: 104px;
+  }
+  .seti{
+    padding-top: 121px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    height: 55px;
+  }
+
+.ecran2{
+    padding-top: 160px;
+    width: 1378px;
+    height: 475px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ecran2 .image{
+    background: url(../img/imgHawaii\ 1.png) no-repeat center;
+    background-size: cover; 
+    width: 830px;
+    height: 475px;
+}
+.info2{
+    width: 548px;
+}
+.info22{
+    padding-left: 100px;
+}
+.info22 p{
+    padding-top: 30px;
+}
+.btn.white:hover {
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    width: 335px;
+    height: 75px;
+    border-radius: 37px;
+    transition: 0.4s;
+    background-color: #DD9428;
+  }
+.btn.white {
+    color: #DD9428;
+    border: 1px solid #DD9428;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    width: 335px;
+    height: 75px;
+    border-radius: 37px;
+    transition: 0.4s;
+    background-color: white;
+    cursor: pointer;
+  }
+.buttt2{
+    padding-top: 50px;
+}
+.info22 h1{
+    font-weight: 700;
+    font-size: 42px;
+}
+.info22 p{
+    font-weight: 400;
+    font-size: 18px;
+}
+.iminfo{
+    color: white;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+.iminfo h3{
+    font-weight: 700;
+    font-size: 23px;
+}
+.iminfo p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.iminfoinside{
+    padding-top: 264px;
+    display: flex;
+    width: 710px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.iminfoinside2 p{
+    font-weight: 500;
+    font-size: 18px;
+}
+.iminfoinside2{
+    width: 203px;
+}
+.ecran3{
+    padding-top: 160px;
+}
+.ecran3 .image3{
+    background: url(../img/imgForm\ 1.png) no-repeat center;
+    width: 1920px;
+    height: 518px;
+    margin: 0 auto;
+}
+.zayavka{
+    display: flex;
+    padding-left: 895px;
+    padding-top: 133px;
+}
+.zayavka .text{
+    width: 403px;
+}
+.zayavka .text h1{
+    font-weight: 700;
+    font-size: 42px;
+    width:403px
+}
+.zayavka .text p{
+    padding-top: 30px;
+    width: 202px;
+}
+.vvod{
+    padding-left: 84px;
+    text-align: center;
+    width: 283px;
+
+}
+input[type=text], input[type=tel] {    
+    margin-bottom: 25px;
+    border: 1px solid #CED8DF;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    height: 73px;
+    border-radius: 37px;
+    transition: 0.4s;
+    background-color: white;
+    cursor: text;
+    color: #CED8DF;
+    width: 278px;
+}
+.vvod input[type=button]{
+    width: 283px;
+}
+.vvod input[type=button]:hover{
+    width: 283px;
+}
+.ssil{
+    width: 283px;
+    margin-top: 10px;
+    font-size: 11px;
+    font-weight: 400;
+}
+.person a{
+    color: #DD9428;
+}
+.buttt2 input[type=button]{
+    width: 283px;
+}
+.buttt2 input[type=button]:hover{
+    width: 283px;
+}
+.ecran4{
+    padding-top: 160px;
+    width: 1378px;
+    height: 475px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 160px;
+}
+
+.ecran4 .image{
+    background: url(../img/imgHawaii\ 111.png) no-repeat center;
+    background-size: cover; 
+    width: 830px;
+    height: 475px;
+}
+.ecran4 .info4{
+    margin-left: 0;
+}
+.ecran4 .info4 .info44{
+    margin-right: 100px;
+}
+.info44 h1{
+    margin-bottom: 39px;
+    width: 468px;
+    font-size: 42px;
+}
+.info44 p{
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+.info4{
+    height: 397px;
+}
+footer{
+    height: 180px;
+    width: 1920px;
+    margin: 0 auto;
+    padding-top: 62px;
+    padding-left: 124px;
+
+}
+footer .wrapper{
+    display: flex;
+    width: 1676px;
+    height: 69px;
+    align-items:center;
+    
+}
+footer .wrapper a{
+    color: #90A4B2;
+    margin-left: 123px;
+    width: 195px;
+}
+footer svg:last-child{
+    margin-left: 731px;
+}
